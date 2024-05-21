@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="launchgui_yj" type="launchgui_yj" name="launchgui_yj"/>
+    <!-- node pkg="image_transport" type="republish" name="republish" args="compressed in:=/main_camera/image_raw out:=/usb_cam/image_raw"/-->
+    <!-- node pkg="image_transport" type="republish" name="republish_realsence" args="compressed in:=/realsence/image_raw out:=/realsence_cam/image_raw"/-->
+</launch>
